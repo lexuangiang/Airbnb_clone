@@ -32,7 +32,9 @@ class RoomsController < ApplicationController
   def photo_upload
     @photos = @room.photos
   end
-
+  def show
+    @photos = @room.photos
+  end
   def amenities
   end
 
