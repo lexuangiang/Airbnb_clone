@@ -23,6 +23,7 @@ gem "omniauth-facebook"
 gem "bootstrap-social-rails"
 gem "font-awesome-rails"
 gem "paperclip"
+gem "mysql2"
 
 
 group :development, :test do
